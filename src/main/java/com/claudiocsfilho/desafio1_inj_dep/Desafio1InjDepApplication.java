@@ -19,9 +19,7 @@ public class Desafio1InjDepApplication implements CommandLineRunner {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(Desafio1InjDepApplication.class, args);
-	
-	
-	
+
 	}
 
 	@Override
@@ -40,8 +38,6 @@ public class Desafio1InjDepApplication implements CommandLineRunner {
 		
 		System.out.println("\n####\nPedido código: " + order.getCode());
 		System.out.println("Valor total: R$" + orderService.total(order));
-		
-		
 		
 		sc.close();
 	}
